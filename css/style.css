@@ -47,6 +47,11 @@ body {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
+.rate .star img {
+    width: 17px;
+    height: 17px;
+}
+
 .rate h2 {
     margin: 30px 0 10px;
 }
@@ -113,6 +118,11 @@ body {
     border-radius: var(--border-r);
     padding: var(--padding-30);
     text-align: center;
+}
+
+.thank-msg img {
+    width: 160px;
+    height: 105px;
 }
 
 .thank-msg p:first-of-type {
