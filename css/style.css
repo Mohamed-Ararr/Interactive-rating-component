@@ -28,10 +28,12 @@ body {
 }
 
 .rate {
+    z-index: 2;
     background-color: var(--Dark-Blue);
     border-radius: var(--border-r);
     width: 380px;
     padding: var(--padding-30);
+    position: relative;
 }
 
 .rate .star {
@@ -62,7 +64,8 @@ body {
     justify-content: space-between;
 }
 
-.rate .rating a {
+.rate .rating span {
+    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -71,26 +74,42 @@ body {
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
     color: var(--Light-Grey);
-    text-decoration: none;
+    transition: 0.5s;
 }
 
-.rate > a {
+.rate .rating span:hover {
+    background-color: var(--primary-color);
+}
+
+.rate button {
     text-align: center;
     padding: 10px;
-    display: block;
-    background-color: var(--primary-color);
-    text-decoration: none;
+    display: block;width: 100%;
     color: white;
+    background-color: var(--primary-color);
+    outline: none;
+    border: none;
     border-radius: var(--border-r);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.rate button:hover {
+    color: var(--primary-color);
+    background-color: var(--White);
 }
 
 /* --------------- */
 
 .thank-msg {
-    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
     background-color: var(--Dark-Blue);
     border-radius: var(--border-r);
-    width: 380px;
     padding: var(--padding-30);
     text-align: center;
 }
