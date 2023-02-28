@@ -7,3 +7,10 @@
     --Very-Dark-Blue: hsl(216, 12%, 8%);
     /* font-family: 'Overpass', sans-serif; */
 }
+
+* {
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: 'Overpass', sans-serif;
+}
+
