@@ -25,6 +25,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    padding: 0 30px;
 }
 
 .rate {
