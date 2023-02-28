@@ -30,7 +30,7 @@ body {
 .rate {
     background-color: var(--Dark-Blue);
     border-radius: var(--border-r);
-    width: 400px;
+    width: 380px;
     padding: var(--padding-30);
 }
 
@@ -84,6 +84,32 @@ body {
     border-radius: var(--border-r);
 }
 
+/* --------------- */
+
 .thank-msg {
     display: none;
+    background-color: var(--Dark-Blue);
+    border-radius: var(--border-r);
+    width: 380px;
+    padding: var(--padding-30);
+    text-align: center;
+}
+
+.thank-msg p:first-of-type {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 15px 5px;
+    margin: 10px auto;
+    font-size: 0.8em;
+    width: fit-content;
+    border-radius: var(--border-r);
+    color: var(--primary-color);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.thank-msg p:last-of-type {
+    font-size: 0.85em;
+    line-height: 1.7;
+    color: var(--Light-Grey);
 }
