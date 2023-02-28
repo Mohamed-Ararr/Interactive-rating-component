@@ -86,7 +86,7 @@ body {
     text-align: center;
     padding: 10px;
     display: block;width: 100%;
-    color: white;
+    color: black;
     background-color: var(--primary-color);
     outline: none;
     border: none;
